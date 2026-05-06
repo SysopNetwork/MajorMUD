@@ -1,0 +1,21 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCGEN3
+Description: MajorMUD Character description
+
+Source: GenericDB
+ModuleName: WCCMMPLS_DESC
+
+; Skip the userid and module in layout definition
+SourceLayout:
+A TYPE=CHAR LENGTH=801
+B TYPE=LONG
+C TYPE=OPAQUE LENGTH=100
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+EndDestLayout

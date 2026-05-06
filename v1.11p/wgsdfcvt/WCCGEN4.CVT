@@ -1,0 +1,39 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCGEN4
+Description: MajorMUD Registry
+
+Source: GenericDB
+ModuleName: WCCMMPLS_REG
+
+; Skip the userid and module in layout definition
+SourceLayout:
+A TYPE=SHORT
+B TYPE=CHAR LENGTH=61
+C TYPE=CHAR LENGTH=61
+D TYPE=CHAR LENGTH=61
+E TYPE=CHAR LENGTH=61
+F TYPE=CHAR LENGTH=61
+G TYPE=CHAR LENGTH=61
+H TYPE=CHAR LENGTH=61
+I TYPE=CHAR LENGTH=61
+J TYPE=CHAR LENGTH=61
+K TYPE=CHAR LENGTH=61
+L TYPE=LONG
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+EndDestLayout

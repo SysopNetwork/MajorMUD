@@ -1,0 +1,39 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCITOWN
+Description: Item Owners Database for MajorMUD
+
+Source: wccitown.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wccitow2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+A TYPE=LONG
+B TYPE=LONG
+C TYPE=OPAQUE LENGTH=1
+D TYPE=LONG
+E TYPE=LONG
+F TYPE=CHAR LENGTH=30
+G TYPE=LONG
+H TYPE=OPAQUE LENGTH=14
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+F
+G
+H
+EndDestLayout
+

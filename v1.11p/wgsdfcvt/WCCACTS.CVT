@@ -1,0 +1,53 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCACTS
+Description: Actions Database for MajorMUD
+
+Source: wccacts.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wccacts2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+A TYPE=CHAR LENGTH=30
+B TYPE=CHAR LENGTH=80
+C TYPE=CHAR LENGTH=80
+D TYPE=CHAR LENGTH=80
+E TYPE=CHAR LENGTH=80
+F TYPE=CHAR LENGTH=80
+G TYPE=CHAR LENGTH=80
+H TYPE=CHAR LENGTH=80
+I TYPE=CHAR LENGTH=80
+J TYPE=CHAR LENGTH=80
+K TYPE=CHAR LENGTH=80
+L TYPE=CHAR LENGTH=80
+M TYPE=SHORT
+N TYPE=OPAQUE LENGTH=1
+O TYPE=OPAQUE LENGTH=97
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+EndDestLayout
+

@@ -1,0 +1,17 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCGEN2
+Description: MajorMUD Evil points
+
+Source: GenericDB
+ModuleName: WCC MAJOR MUD EVIL
+
+; Skip the userid and module in layout definition
+SourceLayout:
+A TYPE=SHORT
+EndSourceLayout
+
+DestLayout:
+A
+EndDestLayout

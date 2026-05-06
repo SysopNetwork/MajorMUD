@@ -1,0 +1,61 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCCLASS
+Description: Class Database for MajorMUD
+
+Source: wccclass.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wccclas2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+AA TYPE=SHORT
+AB TYPE=CHAR LENGTH=30
+AC TYPE=SHORT
+AD TYPE=SHORT
+AE TYPE=SHORT
+AF TYPE=SHORT
+AG TYPE=SHORT
+AH TYPE=SHORT
+AI TYPE=SHORT NUMELEMS=10
+AJ TYPE=SHORT
+AK TYPE=SHORT
+AL TYPE=SHORT
+AM TYPE=SHORT
+AN TYPE=SHORT
+AO TYPE=SHORT NUMELEMS=10
+AP TYPE=CHAR LENGTH=6
+AQ TYPE=LONG
+AR TYPE=OPAQUE LENGTH=1
+AS TYPE=OPAQUE LENGTH=48
+EndSourceLayout
+
+DestLayout:
+AA
+AB
+AC
+AD
+AE
+AF
+AG
+AH
+AI
+AJ
+AK
+AL
+AM
+AN
+AO
+AP
+AQ
+AR
+AS
+EndDestLayout
+

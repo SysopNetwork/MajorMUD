@@ -1,0 +1,33 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCTEXT
+Description: Text Database for MajorMUD
+
+Source: wcctext.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wcctext2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+A TYPE=LONG
+B TYPE=SHORT
+C TYPE=LONG
+D TYPE=OPAQUE LENGTH=12
+E TYPE=OPAQUE LENGTH=VARIABLE MAXLENGTH=2000
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+EndDestLayout
+

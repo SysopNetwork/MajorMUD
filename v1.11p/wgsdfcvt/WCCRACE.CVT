@@ -1,0 +1,73 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCRACE
+Description: Race Database for MajorMUD
+
+Source: wccrace.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wccrace2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+A TYPE=SHORT
+B TYPE=CHAR LENGTH=30
+C TYPE=SHORT
+D TYPE=SHORT
+E TYPE=SHORT
+F TYPE=SHORT
+G TYPE=SHORT
+H TYPE=SHORT
+I TYPE=SHORT
+J TYPE=SHORT
+K TYPE=SHORT
+L TYPE=SHORT NUMELEMS=10
+M TYPE=SHORT
+N TYPE=SHORT NUMELEMS=10
+O TYPE=CHAR LENGTH=6
+P TYPE=SHORT
+Q TYPE=OPAQUE LENGTH=1
+R TYPE=OPAQUE LENGTH=1
+S TYPE=SHORT
+T TYPE=SHORT
+U TYPE=SHORT
+V TYPE=SHORT
+W TYPE=SHORT
+X TYPE=SHORT
+Y TYPE=OPAQUE LENGTH=12
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+EndDestLayout
+

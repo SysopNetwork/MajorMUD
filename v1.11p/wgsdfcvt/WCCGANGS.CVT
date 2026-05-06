@@ -1,0 +1,47 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCGANGS
+Description: Gangs Database for MajorMUD
+
+Source: wccgangs.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wccgang2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+A TYPE=CHAR LENGTH=20
+B TYPE=CHAR LENGTH=20
+C TYPE=LONG 
+D TYPE=CHAR LENGTH=30
+E TYPE=SHORT
+F TYPE=SHORT
+G TYPE=SHORT
+H TYPE=LONG
+I TYPE=OPAQUE LENGTH=1
+J TYPE=LONG
+K TYPE=SHORT
+L TYPE=OPAQUE LENGTH=162
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+EndDestLayout
+

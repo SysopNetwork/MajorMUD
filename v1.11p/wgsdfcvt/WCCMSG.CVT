@@ -1,0 +1,35 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCMSG
+Description: Message Database for MajorMUD
+
+Source: wccmsg.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wccmsg2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+A TYPE=LONG
+B TYPE=CHAR LENGTH=82
+C TYPE=CHAR LENGTH=82
+D TYPE=CHAR LENGTH=82
+E TYPE=OPAQUE LENGTH=1
+F TYPE=OPAQUE LENGTH=2
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+F
+EndDestLayout
+

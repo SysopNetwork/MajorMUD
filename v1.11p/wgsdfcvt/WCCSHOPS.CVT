@@ -1,0 +1,63 @@
+; 
+; Copyright 1993-1998 West Coast Creations  All Rights Reserved
+;
+Tag: WCCSHOPS
+Description: Shop Database for MajorMUD
+
+Source: wccshops.dat
+SourcePacked: Yes
+SourceByteOrder: LITTLE
+
+Destination: wccshop2.dat
+DestPacked: No
+DestByteOrder: LITTLE
+
+Ratio: 1.0
+RecordOrder: PHYSICAL
+
+SourceLayout:
+A TYPE=LONG
+B TYPE=CHAR LENGTH=40
+C TYPE=CHAR LENGTH=53
+D TYPE=CHAR LENGTH=53
+E TYPE=CHAR LENGTH=53
+F TYPE=SHORT
+G TYPE=SHORT
+H TYPE=SHORT
+I TYPE=SHORT
+J TYPE=OPAQUE LENGTH=1
+K TYPE=OPAQUE LENGTH=1
+L TYPE=SHORT
+M TYPE=LONG NUMELEMS=20
+N TYPE=SHORT NUMELEMS=20
+O TYPE=SHORT NUMELEMS=20
+P TYPE=SHORT NUMELEMS=20
+Q TYPE=SHORT NUMELEMS=20
+R TYPE=OPAQUE LENGTH=20
+S TYPE=OPAQUE LENGTH=1
+T TYPE=OPAQUE LENGTH=24
+EndSourceLayout
+
+DestLayout:
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+EndDestLayout
+
